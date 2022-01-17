@@ -8,14 +8,12 @@ body{
 }
 
 body h3{
-    font-family: 'Roboto', sans-serif;
     color: #363958;
     font-size: 24px;
     font-weight: 700;  
 }
 
 body p{
-    font-family: 'Roboto', sans-serif; 
     color: #3E3E3E;
     font-weight: 400; 
     font-size: 16px;
@@ -60,6 +58,11 @@ header{
     text-decoration: none;
     color: #3C3C3C;
     font-weight: 500;
+}
+
+.list-item:hover a{
+    text-decoration: underline;
+    color: #85A019;
 }
 
 /* Top Banner */
@@ -166,6 +169,10 @@ main{
 
 /* service section */
 
+.service-section{
+    padding-top: 50px;
+}
+
 .our-service{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -201,7 +208,6 @@ main{
 }
 
 footer{
-    font-family: 'Bebas Neue', cursive;
     font-weight: 400;
     background-color: #0A0826;
     padding: 40px;
@@ -211,11 +217,15 @@ footer{
 }
 
 footer h2,footer p{
-    margin: 0;
+    margin: 5px;
 }
 
 footer p{
     color: #D9DBE1;
+}
+
+footer span{
+    color: #85A019;
 }
 
 footer .social-icons{
@@ -232,6 +242,7 @@ footer .social-icon{
     border-radius: 50%;
 
 }
+
 
 
 
